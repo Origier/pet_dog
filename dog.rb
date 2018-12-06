@@ -72,7 +72,7 @@ class Dog
   def passTime
     @hunger += 1
     @bathroom += 1
-    @age = 1
+    @age += 1
     if @hunger == 20
       if @asleep
         puts "#{@name.capitalize} doesn't seem to be waking up...you think #{@adjective} may have died from starvation!"
